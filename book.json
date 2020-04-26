@@ -1,0 +1,53 @@
+
+{
+    "title": "家和Blog",
+    "author": "wongjull",
+    "description": "技术积累/个人成长/php/前端",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "github": "https://github.com/wongjull",
+            "gitee": "https://gitee.com/jiahedeyemian/blog.gaoxiaodayin.com"
+        }
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "plugins": [
+        "custom-favicon",
+        "logo",
+        "-search",
+        "search-plus",
+        "-sharing",
+        "pageview-count",
+        "back-to-top-button",
+        "chapter-fold",
+        "code",
+        "splitter",
+        "tbfed-pagefooter",
+        "popup",
+        "page-toc-button",
+        "accordion",
+        "click-reveal"
+    ],
+    "pluginsConfig": {
+        "favicon": "../imgs/favicon.icon",
+        "logo": {
+            "logo": "../imgs/logo.png",
+            "title": "家和Blog",
+            "titleStyle": "color: #FFF; text-align: center;"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy wongjull 2020",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        }
+    }
+}
